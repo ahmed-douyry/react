@@ -18,8 +18,7 @@ export const ModifierEtudiant = () => {
         const etudiant = { id: id, nom: nom, prenom: prenom, sexe: sexe, email: email };
         dispatch(EditAction(etudiant));
         navigate('/');
-        alert(etudiant.id);
-        alert(etudiant.sexe);
+        
     };
 
     const annuler = () => {
